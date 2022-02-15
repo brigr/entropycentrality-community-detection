@@ -64,11 +64,11 @@ The ECCD function has a number of important parameters. First of all, let us spo
 ```
 
 **A** is an orthogonal 0-1 adjacency matrix.\
-**a** is the absorption probability of the absorbing random walk.\
-**t** is the power of the stochastic Markov matrix.\
-**k** is the count of communities that you need to recover.\
-**debug** is a flag for requesting debugging messages.\
-**use_sp_matrix** is a flag for enforcing sparse matrix computations.\
+**a** is the absorption probability of the absorbing random walk. It takes value in the closed set [0,1].\
+**t** is the power of the stochastic Markov matrix. It takes integer values greater than or equal to 1.\
+**k** is the count of communities that you need to recover. It takes integer values greater than 1.\
+**debug** is a flag for requesting debugging messages. It takes the value 0 (false) or 1 (true).\
+**use_sp_matrix** is a flag for enforcing sparse matrix computations. It takes the value 0 (false) or 1 (true).
 
 # Important notice: what you should know
 The source code provided here is a third-party implementation of the research article by (Nikolaev, Razib and Kucheriya, 2015). We have verified that the code works on both MATLAB and on GNU Octave (please be careful on the connected component function call which is different for these two platforms). We have verified that the implementation works as expected for the graphs that are evaluated in the experiment section of the paper. You should make sure that the latter fact applies for your installation of the code in the environment that you try it on. If you spot any other problem with the code, you can contact me at s.karavarsamis@gmail.com.
