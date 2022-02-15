@@ -1,5 +1,5 @@
 # Entropy centrality-based community detection
-A MATLAB implementation of the research article by Nikolaev, Razib and Kucheriya titled "On efficient use of entropy centrality for social network analysis and community detection", published in the Elsevier Social Networks journal.
+This repository offers a MATLAB / GNU Octave implementation of the research article by (Nikolaev, Razib and Kucheriya, 2015) titled "On efficient use of entropy centrality for social network analysis and community detection" that was published in the Elsevier Social Networks journal in 2015. The source code available here is a third-party implementation of the method presented by (Nikolaev, Razib and Kucheriya, 2015) and not the actual implementation used by the authors in their study.
 
 # Entropy centrality-based community detection using an absorbing random walk
 The algorithm of (Nikolaev, Razib and Kutcheriya, 2015) is summarized in the following graphic. This graphic is generated from the thesis manuscript of the author of this repository and is available at https://ikee.lib.auth.gr/record/330591. You are suggested to download the thesis from this URL and attend to the text regarding this method.
