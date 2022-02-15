@@ -1,4 +1,4 @@
-# Entropy centrality-based community detection
+# Third-party implementation of (Nikolaev, Razib and Kutcheriya, 2015)
 This repository offers a MATLAB / GNU Octave implementation of the research article by (Nikolaev, Razib and Kucheriya, 2015) titled "On efficient use of entropy centrality for social network analysis and community detection" that was published in the Elsevier Social Networks journal in 2015. The source code available here is a third-party implementation of the method presented by (Nikolaev, Razib and Kucheriya, 2015) and not the actual implementation used by the authors in their study.
 
 **IMPORTANT NOTICE:** If you actually need to use the implementation used by authors of the abovementioned study in order to generate community assignment data or other data (such as entropy centrality values), then you should not use the source code available here!
