@@ -51,7 +51,7 @@ Here we show an example of how to invoke the ECCD function (implemented in ECCD.
 from your GNU Octave or MATLAB environment. To invoke ECCD, you should first load an adjacency matrix either from one file that you prepared or from one of the files available in the ```data/``` folder.
 
 ```
->> A = load('data/KAPFMM.txt'); % load the KAPFMM graph
+>> A = load('data/KAPFMM.adj'); % load the KAPFMM graph
 >> [communities,edges_exhausted] = ECCD(A,0.1,2,2,1,1);
 >> communities % print community assignments in the order appearing in the adjacency matrix
 >> edges_exhausted % learn if the algorithm terminated prematurely
