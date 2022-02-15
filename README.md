@@ -39,6 +39,23 @@ Once MATLAB or GNU Octave opens, execute the following commands to prepare the c
 >> mex -O -largeArrayDims graph_conn_comp_mex.cpp
 ```
 
+# Invoking the function in ECCD.m
+
+Here we show an example of how to invoke the ECCD function (implemented in ECCD.m in the ECCD folder). We assume that you already run
+
+```
+>> addpath(genpath('.'))
+```
+
+from your GNU Octave or MATLAB environment. To invoke ECCD, you should first load an adjacency matrix either from one file that you prepared or from one of the files available in the ```data/``` folder.
+
+```
+>> A = load('data/KAPFMM.txt'); % load the KAPFMM graph
+>> [communities,edges_exhausted] = ECCD(A,0.1,2,2,1,1);
+>> communities % print communities
+>> edges_exhausted % learn if the algorithm terminated prematurely
+```
+
 # Important notices
 Note that this is a third-party implementation of the research article by (Nikolaev, Razib and Kutcheriya, 2015). We have verified that the code works on both MATLAB and on GNU Octave (please be careful on the connected component function call which is different for these two platforms). We have verified that the implementation works as expected for the graphs that are evaluated in the experiment section of the paper. You should make sure that the latter fact applies for your installation of the code in the environment that you try it on. If you spot any other problem with the code, you can contact me at s.karavarsamis@gmail.com.
 
