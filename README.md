@@ -1,6 +1,10 @@
 # Entropy centrality-based community detection
 A MATLAB implementation of the research article by Nikolaev, Razib and Kucheriya titled "On efficient use of entropy centrality for social network analysis and community detection", published in the Elsevier Social Networks journal.
 
+# Entropy centrality-based community detection using an absorbing random walk
+The algorithm of (Nikolaev, Razib and Kutcheriya, 2015) is summarized in the following graphic
+![Screenshot](algorithm.png)
+
 # Folder structure
 This repository contains 4 main folders, each serving a particular aim. The "ECCD" folder contains the MATLAB source code implementing the community detection method. The "data" folder contains several directed graphs which can be used to evaluate community structure. The "modularity_calculation"  folder contains MATLAB scripts which can be used to calculate the Newman modularities of the sequence of community assignments for several values of the community count. The "plotter_scripts" folder contains MATLAB scripts which can be used to graphically visualize the modularity sequences of a particular graph (in fact, one of the available ones), possibly allowing for the plotting of the $t$ parameter (please read the paper for more on the $t$ parameter).
 
