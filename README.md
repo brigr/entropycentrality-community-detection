@@ -52,7 +52,7 @@ from your GNU Octave or MATLAB environment. To invoke ECCD, you should first loa
 ```
 >> A = load('data/KAPFMM.txt'); % load the KAPFMM graph
 >> [communities,edges_exhausted] = ECCD(A,0.1,2,2,1,1);
->> communities % print communities
+>> communities % print community assignments in the order appearing in the adjacency matrix
 >> edges_exhausted % learn if the algorithm terminated prematurely
 ```
 
