@@ -4,7 +4,7 @@ This repository offers a MATLAB / GNU Octave implementation of the research arti
 **If you actually need to use the implementation used by authors of the abovementioned study in order to generate community assignment data or other data (such as entropy centrality values), then you should not use the source code available here!**
 
 # Entropy centrality-based community detection using an absorbing random walk
-The algorithm of (Nikolaev, Razib and Kutcheriya, 2015) is summarized in the following graphic. This graphic is generated from the thesis manuscript of the author of this repository and is available at https://ikee.lib.auth.gr/record/330591. You are suggested to download the thesis from this URL and attend to the text regarding this method.
+The algorithm of (Nikolaev, Razib and Kutcheriya, 2015) is summarized in the following graphic. This graphic is generated from the thesis manuscript of the author of this repository and is available at https://ikee.lib.auth.gr/record/330591. You are suggested to download the thesis from this URL and attend to the text regarding this method. In the thesis, you can also read the experiments that I run using this implementation.
 
 ![Screenshot](algorithm.png)
 
