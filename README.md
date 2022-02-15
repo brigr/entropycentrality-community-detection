@@ -22,7 +22,7 @@ $ matlab
 
 or start GNU Octave using the command line
 ```
-octave
+$ octave
 ```
 
 Once MATLAB or GNU Octave opens, execute the following commands to prepare the connected components calculation function that is based on MEX.
