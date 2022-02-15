@@ -13,11 +13,19 @@ Our suggestions on the calculation of connected components in the implementation
 ```
 $ git clone https://github.com/brigr/entropycentrality-community-detection
 $ cd entropycentrality-community-detection/
+```
 
+Then start MATLAB from your command line prompt using
+```
 $ matlab
 ```
 
-Once MATLAB opens, execute the following commands to prepare the connected components calculation function that is based on MEX.
+or start GNU Octave using the command line
+```
+octave
+```
+
+Once MATLAB or GNU Octave opens, execute the following commands to prepare the connected components calculation function that is based on MEX.
 
 ```
 addpath(genpath('.'))
