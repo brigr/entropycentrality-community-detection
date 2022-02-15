@@ -63,7 +63,7 @@ The ECCD function has a number of important parameters. First of all, let us spo
 [communities,edges_exhausted] = ECCD(A,a,t,k,debug,use_sp_matrix)
 ```
 
-It has the followinng parameters:\
+It has the followinng parameters:
 
 **A** is an orthogonal 0-1 adjacency matrix.\
 **a** is the absorption probability of the absorbing random walk. It takes value in the closed set [0,1].\
